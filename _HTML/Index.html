@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../_CSS/Index.css">
+</head>
+<body>
+    <div>
+    <header>
+        <h1>COMPRA</h1>
+    </header>
+    <main>
+        <form method="post" action="../_PHP/Index.php">
+        <p>CÓDIGO DO PRODUTO</p>
+        <input type="number" min="1" name="cod" required>
+        <p>DESCRIÇÃO DO PRODUTO</p>
+        <textarea name="desc"></textarea>
+        <p>VALOR DO PRODUTO</p>
+        <input inputmode="numeric" type="number" name="val" min="1" required>
+        <p>QUANTIDADE DO PRODUTO</p>
+        <input type="number" min="1" name="quant" required>
+        <p></p>
+        <input class="btt" type="submit" value="FINALIZAR">            
+        </form>
+    </main>
+    </div>
+</body>
+</html>
